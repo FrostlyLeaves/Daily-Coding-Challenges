@@ -22,3 +22,4 @@ def longest_prefix(strs):
 
 assert longest_prefix(["flower","flow","flight"]) == "fl"
 assert longest_prefix(["dog","racecar","car"]) == ""
+assert longest_prefix(["dog"]) == "dog"
